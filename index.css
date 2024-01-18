@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(149, 255, 220);
+}
+
+.navBar1{
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.logo{
+    display: flex;
+}
+
+.navBar2{
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+.navBar1:hover{
+    text-decoration: underline;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+    color: #1993a8;
+}
+
+.navBar2:hover{
+    text-decoration: underline;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+    color: #1993a8;
+}
+
+.navDeInicio{
+    background-color: rgb(65, 209, 209);
+    margin: 0px;
+    padding: 30px;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+article{
+    font-family: 'Bacasime Antique', serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(cumple.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 2px solid green;
+}
+
+.vacío{
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.tituloParaFondo{
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(91, 91, 92);
+    text-align: center;
+}
+
+.textoParaFondo1{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(91, 91, 92);
+    text-align: center;
+}
+
+.textoParaFondo2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(91, 91, 92);
+    text-align: center;
+}
+
+main{
+    padding-top: 80px;
+    padding-bottom: 90px;
+    background-image: url(estrellas3.jpg);
+    text-align: center;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+#sobreNosotros{
+    font-size: 40px;
+    color: rgb(175, 160, 23);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+
+#descripción{
+    font-size: 30px;
+    color: rgb(175, 160, 23);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+
+.servicios{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url(estrellas\ amarillas.jpg);
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid rgb(91, 91, 92);
+}
+
+#tituloParaServicios{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+
+.descripciónParaServicios{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+}
+
+.card1{
+    background-color: white;
+    border: 2px solid rgb(91, 91, 92);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Bacasime Antique', serif;
+    color: rgb(91, 91, 92);
+}
+
+.cards1{
+    display: grid;
+    grid-template-areas: "card card card "
+                         "card card card ";
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    padding: 10px;
+}
+
+.navServicios{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Bacasime Antique', serif;
+    background-color: rgb(65, 209, 209);
+    padding: 40px;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+.Galería{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(85, 35, 85);
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid rgb(59, 3, 65);
+    width: 90%;
+    max-width: 120em;
+}
+
+.tituloGaleria{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(230, 226, 226);
+}
+
+.descripcionGaleria{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(230, 226, 226);
+}
+
+.Galería .imagenesDeGaleria{
+    width: 1200%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Galería .img{
+    margin: 40px;
+    width: calc( 80% / 15);
+}
+
+.Galería .puntos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Galería .punto{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.Galería .punto:hover{
+    text-decoration: underline;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+    color: aquamarine;
+}
+
+.Galería .punto.activo{
+    color: aquamarine;
+    font-size: 35px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: auto 0;
+    margin-top: 60px;
+    margin-left: auto 0;
+    margin-right: auto 0;
+    background-color: rgb(65, 209, 209);
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid rgb(91, 91, 92);
+}
+
+#contacto{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bacasime Antique', serif;
+}
+
+#sugerenciaParaContactar{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bacasime Antique', serif;
+    margin-bottom: 50px;
+}
+
+.datosDeContacto{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(53, 52, 52);
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#tituloDatos{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bacasime Antique', serif;
+}
+
+#concretarVisita{
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+}
+
+.datos{
+    margin-top: 70px;
+    margin-bottom: 67px;
+}
+
+form{
+    width: 40%;
+    background: #24303c;
+    font-family: 'Bacasime Antique', serif;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    box-shadow: 7px 13px 37px #000;
+}
+
+label{
+    margin-left: 10.5px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+input{
+    background: #24303c;
+    color: white;
+    font-family: 'Bacasime Antique', serif;
+    padding: 4px;
+    margin: 9px;
+    border-radius: 3px;
+    border: 1px solid #1f53c5;
+    font-size: 25px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input:hover{
+    box-shadow: inset 7px 13px 37px #000;
+    background-color: #455666;
+}
+
+#mensaje{
+    height: 100px;
+}
+
+#boton{
+    margin-top: 50px;
+    background: #1f53c5;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.camposARellenar{
+    display: flex;
+    align-items: center;
+}
+
+@media ( width >= 1240px){
+    .menuHamburguesa{
+        display: none;
+    }
+}
+
+@media ( 283px <= width <= 1240px ){
+    .RestoDelNavbar{
+        display: none;
+    }
+
+    .nav_items{
+        background-color: rgb(65, 209, 209);
+        border-radius: 3px;
+        margin: 0px;
+        padding: 30px;
+        font-family: 'Bacasime Antique', serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media ( 283px >= width ){
+    .RestoDelNavbar{
+        display: none;
+    }
+
+    .nav_items{
+        background-color: rgb(65, 209, 209);
+        border-radius: 3px;
+        margin: 0px;
+        padding: 30px;
+        font-family: 'Bacasime Antique', serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+}
