@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(149, 255, 220);
+    box-sizing: border-box;
 }
 
 .navBar1{
@@ -186,9 +187,11 @@ main{
     background-color: rgb(85, 35, 85);
     border-radius: 3px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 2px solid rgb(59, 3, 65);
-    width: 90%;
-    max-width: 120em;
 }
 
 .tituloGaleria{
@@ -205,51 +208,63 @@ main{
     -webkit-text-stroke-color:rgb(230, 226, 226);
 }
 
-.Galería .imagenesDeGaleria{
-    width: 1200%;
+.container-carousel {
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.carruseles {
+    width: 1500%;
+    height: 100%;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
 }
 
-.Galería .img{
-    margin: 40px;
-    width: calc( 80% / 15);
+.slider-section {
+    width: calc(100% / 15);
+    height: 100%;
 }
 
-.Galería .puntos{
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
     display: flex;
-    justify-content: space-around;
-}
-
-.Galería .punto{
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    padding: 10px;
-    margin: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: absolute;
+    font-size: 3.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
     cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-500%);
+    transition: .5s ease;
+    user-select: none;
 }
 
-.Galería .punto:hover{
-    text-decoration: underline;
-    -webkit-transition: color .4s linear;
-    -moz-transition: color .4s linear;
-    -ms-transition: color .4s linear;
-    -o-transition: color .4s linear;
-    transition: color .4s linear;
-    color: aquamarine;
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
 }
 
-.Galería .punto.activo{
-    color: aquamarine;
-    font-size: 35px;
-    padding: 10px;
-    margin: 5px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
 }
 
 footer{
@@ -367,6 +382,15 @@ input:hover{
 @media ( width >= 1240px){
     .menuHamburguesa{
         display: none;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        border-bottom: 2px solid green;
+        z-index: 1000;
+    }
+    article{
+        padding-top: 90px;
     }
 }
 

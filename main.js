@@ -1,19 +1,43 @@
-'use strict'
+const btnLeft = document.querySelector(".btn-left"),
+      btnRight = document.querySelector(".btn-right"),
+      slider = document.querySelector("#slider"),
+      sliderSection = document.querySelectorAll(".slider-section");
 
-const imagenesDeGaleria = document.querySelector('.imagenesDeGaleria');
-const punto = document.querySelectorAll('.punto');
+btnRight.addEventListener("click", e => moveToRight());
+btnLeft.addEventListener("click", e => moveToLeft());
 
-punto.forEach( ( cadaPunto , i )=> {
-    punto[i].addEventListener('click',()=>{
-        let posicion = i
-        let operacion = posicion * -5.33
-        imagenesDeGaleria.style.transform = `translateX(${ operacion }%)`
+setInterval(() => {
+    moveToRight()
+}, 3000);
 
-        punto.forEach( ( cadaPunto, i )=> {
-            punto[i].classList.remove('activo')
-        })
-        punto[i].classList.add('activo')
-        
-    })
-});
+let operacion = 0;
+let counter = 0;
+let widthImg = 100 / sliderSection.length;
 
+function moveToRight () {
+    if(counter >= sliderSection.length-1) {
+        counter = 0;
+        operacion = 0;
+        slider.style.transform = `translate(-${operacion}%)`;
+        slider.style.transition = "none";
+        return;
+    }
+    counter++;
+    operacion = operacion + widthImg;
+    slider.style.transform = `translate(-${operacion}%)`;
+    slider.style.transition = "all ease .6s";
+}
+
+function moveToLeft () {
+    counter--;
+    if(counter < 0) {
+        counter = sliderSection.length-1;
+        operacion = widthImg * (sliderSection.length-1);
+        slider.style.transform = `translate(-${operacion}%)`;
+        slider.style.transition = "none";
+        return;
+    }
+    operacion = operacion - widthImg;
+    slider.style.transform = `translate(-${operacion}%)`;
+    slider.style.transition = "all ease .6s";
+}
