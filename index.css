@@ -55,7 +55,7 @@ body{
 
 article{
     font-family: 'Bacasime Antique', serif;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -392,6 +392,10 @@ input:hover{
     article{
         padding-top: 90px;
     }
+}
+
+@media ( width >= 900px){
+
 }
 
 @media ( 283px <= width <= 1240px ){
