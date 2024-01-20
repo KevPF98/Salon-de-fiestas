@@ -8,7 +8,7 @@ btnLeft.addEventListener("click", e => moveToLeft());
 
 setInterval(() => {
     moveToRight()
-}, 1500);
+}, 2500);
 
 let operacion = 0;
 let counter = 0;
