@@ -296,8 +296,9 @@ footer{
 .datosDeContacto{
     font-size: 30px;
     color: rgb(255, 255, 255);
-    margin: auto;
-    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     background-color: rgb(53, 52, 52);
     border-radius: 8px;
     border: 1px solid #ffffff;
@@ -591,6 +592,22 @@ input:hover{
     }
     footer{
         margin-top: 5px;
+    }
+    #contacto{
+        font-size: 25px;
+    }
+    #sugerenciaParaContactar{
+        font-size: 15px;
+    }
+    #tituloDatos{
+        font-size: 25px;
+    }
+    .datos{
+        font-size: 15px;
+    }
+    .FooterIcon{
+        height: 15px;
+        width: 15px;
     }
 }
 
