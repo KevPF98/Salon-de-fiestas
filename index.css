@@ -60,7 +60,7 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(cumple.jpg);
+    background-image: url(probar.jfif);
     background-size: cover;
     background-position: center;
     border-top: 2px solid green;
@@ -73,7 +73,7 @@ article{
 
 .tituloParaFondo{
     font-size: 45px;
-    color: rgb(255, 255, 255);
+    color: rgb(65, 209, 209);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(91, 91, 92);
     text-align: center;
@@ -81,7 +81,7 @@ article{
 
 .textoParaFondo1{
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(65, 209, 209);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(91, 91, 92);
     text-align: center;
@@ -89,7 +89,7 @@ article{
 
 .textoParaFondo2{
     font-size: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(65, 209, 209);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(91, 91, 92);
     text-align: center;
@@ -106,14 +106,14 @@ main{
 
 #sobreNosotros{
     font-size: 40px;
-    color: rgb(175, 160, 23);
+    color: rgb(206, 33, 140);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(0, 0, 0);
 }
 
 #descripción{
     font-size: 30px;
-    color: rgb(175, 160, 23);
+    color: rgb(206, 33, 140);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color:rgb(0, 0, 0);
 }
@@ -125,7 +125,7 @@ main{
     margin-top: 60px;
     margin-left: 150px;
     margin-right: 150px;
-    background-image: url(estrellas\ amarillas.jpg);
+    background-color: rgb(206, 33, 140);
     border-radius: 3px;
     text-align: center;
     border: 2px solid rgb(91, 91, 92);
@@ -161,9 +161,25 @@ main{
 .cards1{
     display: grid;
     grid-template-areas: "card card card "
+                         "card card card "
                          "card card card ";
     grid-template-columns: 33.3% 33.3% 33.3%;
     padding: 10px;
+}
+
+#piñata{
+    grid-column-start: 2;
+}
+
+.serviciosAdicionales{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
 }
 
 .navServicios{
@@ -364,6 +380,21 @@ input:hover{
     background-color: #455666;
 }
 
+#ig{
+    color: rgb(255, 187, 229);
+}
+
+#ig:hover{
+    text-decoration: underline;
+    -webkit-transition: color .4s linear;
+    -moz-transition: color .4s linear;
+    -ms-transition: color .4s linear;
+    -o-transition: color .4s linear;
+    transition: color .4s linear;
+    color: rgb(206, 33, 140);
+}
+
+/*
 #mensaje{
     height: 100px;
 }
@@ -379,6 +410,8 @@ input:hover{
     display: flex;
     align-items: center;
 }
+
+*/
 
 @media ( width >= 1240px){
     .menuHamburguesa{
@@ -447,7 +480,13 @@ input:hover{
     .descripciónParaServicios{
         font-size: 25px;
     }
-        .Galería{
+    .serviciosAdicionales{
+        font-size: 25px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .Galería{
         margin-top: 50px;
         margin-bottom: 0px;
         margin-left: 5px;
@@ -523,6 +562,9 @@ input:hover{
         font-size: 25px;
     }
     .descripciónParaServicios{
+        font-size: 15px;
+    }
+    .serviciosAdicionales{
         font-size: 15px;
     }
     .cards1{
