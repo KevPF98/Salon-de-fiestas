@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(fondomulan4.jpg);
+  background-size: cover;
+  background-position: center;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.precios {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 3%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: rgba(146, 233, 204, 0.863);
+  border-radius: 10px;
+  text-align: center;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.dias {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+}
+.diascontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+#loginContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+#loginContainer label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#loginContainer input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#loginContainer button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#loginContainer button:hover {
+  background-color: #45a049;
+}
+
+#l-j-mform {
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#l-j-mform label {
+  font-size: 25px;
+}
+
+#l-j-mform input {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+#l-j-mform button {
+  border: #fff;
+  border-radius: 8px;
+  border: solid 1px black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100px;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#l-j-mform button:hover{
+    background-color: rgb(200, 207, 207);
+
+}
+
+@media (width <= 1440px) {
+    body {
+      height: auto;
+      overflow: auto;
+      background-size: cover;
+    }
+    #l-j-mform{
+        padding: 0;
+    }#l-j-mform input{
+        width: 200px;
+    }
+    #loginContainer{
+        margin-top: 35%;
+        margin-bottom: 125px;
+    }
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    
+}
+
+@media (width <= 1024px) {
+    body {
+      height: auto;
+      overflow: auto;
+      background-size: cover;
+    }
+    #l-j-mform{
+        padding: 0;
+    }#l-j-mform input{
+        width: 200px;
+    }
+    #loginContainer{
+        margin-top: 35%;
+        margin-bottom: 125px;
+    }
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    .diascontainer{
+        padding: 0;
+    }
+    .dias{
+        padding: 0;
+    }
+    
+}
+@media (width <= 768px){
+    body{
+        background-size: cover;
+    }
+    #loginContainer{
+        margin-top: 60%;
+    }
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-right: 50%;
+        margin-left: 50%;
+    }
+    .diascontainer{
+        padding: 0;
+    }
+    .dias{
+        padding: 0;
+    }
+}
+@media (width <= 425px){
+    body{
+        background-size: cover;
+    }
+    #loginContainer{
+        margin-top: 60%;
+    }
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-right: 50%;
+        margin-left: 50%;
+
+
+    }
+    .diascontainer{
+        padding: 0;
+    }
+    .dias{
+        padding: 0;
+    }
+}
+@media (width <= 375px){
+    body{
+        background-size: cover;
+    }
+    #loginContainer{
+        margin-top: 70%;
+    }
+    #l-j-mform label{
+        font-size: 20px;
+    }#l-j-mform input{
+        width: 200px;
+    }
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 25%
+
+    }
+    .diascontainer{
+        padding: 0;
+    }
+    .dias{
+        padding: 0;
+    }
+}
+
+@media (width <= 320px){
+    body{
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #loginContainer{
+        margin-top: 79%;
+    }   
+    .precios{
+        justify-content: center;
+        align-items: center;
+        font-size: 9px;
+        margin-right: 50%;
+        margin-left: 50%;
+        margin-top: 25%px;
+
+
+    }
+    .diascontainer{
+        padding: 0;
+        margin-left: 25px;
+    }
+    .dias{
+        padding: 0;
+    }
+
+}

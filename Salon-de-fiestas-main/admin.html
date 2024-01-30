@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-ES" style="background-color: rgb(255, 255, 255);">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/pricadmin.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/jpg" href="mulan icon.png">
+    <title>Fiestas Infantiles - Mulán Administradorrrrrrr</title>
+</head>
+
+<body>
+    <div id="loginContainer">
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="checkLogin(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Ingresar">
+        </form>
+    </div>
+    <div id="userInterface" style="display:none;">
+        <div class="adminContainer">
+            <h1>Cambio de precios</h1>
+            <div class="adminUi">
+                <form id="l-j-mform">
+                    <label for="l-j-m">Lunes a Jueves Mediodia</label>
+                    <input type="number" id="l-j-minput" name="l-j-minput" required>
+                    <label for="l-j-t">Lunes a Jueves Tarde</label>
+                    <input type="number" id="l-j-tinput" name="l-j-tinput"required>
+                    <label for="v-s-d-f">Viernes Sabado Domingo y Feriado</label>
+                    <input type="number" id="v-s-d-finput" name="v-s-d-finput"required>
+                    <label for="n">Noche</label>
+                    <input type="number" id="ninput" name="ninput"required>
+                    <button onclick="PrecioCambiar1(); PrecioCambiar2(); PrecioCambiar3(); PrecioCambiar4();">Actualizar
+                        Precios</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="admin.js"></script>
+</body>
+
+</html>
