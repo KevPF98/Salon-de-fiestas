@@ -1,397 +1,410 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(149, 255, 220);
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(149, 255, 220);
+  box-sizing: border-box;
 }
 
-.navBar1{
-    color: white;
-    display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
+.navBar1 {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.logo{
-    display: flex;
+.logo {
+  display: flex;
 }
 
-.navBar2{
-    color: white;
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 25px;
+
+.navBar2 {
+  color: white;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 25px;
 }
 
-.navBar1:hover{
-    text-decoration: underline;
-    -webkit-transition: color .4s linear;
-    -moz-transition: color .4s linear;
-    -ms-transition: color .4s linear;
-    -o-transition: color .4s linear;
-    transition: color .4s linear;
-    color: #1993a8;
+.navBar1:hover {
+  text-decoration: underline;
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+  color: #1993a8;
 }
 
-.navBar2:hover{
-    text-decoration: underline;
-    -webkit-transition: color .4s linear;
-    -moz-transition: color .4s linear;
-    -ms-transition: color .4s linear;
-    -o-transition: color .4s linear;
-    transition: color .4s linear;
-    color: #1993a8;
+.navBar2:hover {
+  text-decoration: underline;
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+  color: #1993a8;
 }
 
-.navDeInicio{
-    background-color: rgb(65, 209, 209);
-    margin: 0px;
-    padding: 30px;
-    font-family: 'Bacasime Antique', serif;
-    font-size: 25px;
-    display: flex;
-    justify-content: space-between;
+.navDeInicio {
+  background-color: rgb(65, 209, 209);
+  margin: 0px;
+  padding: 30px;
+  font-family: 'Bacasime Antique', serif;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
 }
 
-article{
-    font-family: 'Bacasime Antique', serif;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(probar.jfif);
-    background-size: cover;
-    background-position: center;
-    border-top: 2px solid green;
+article {
+  font-family: 'Bacasime Antique', serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imgFondos/fondomulan1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid green;
 }
 
-.vacío{
-    padding-top: 30px;
-    margin-top: 40px;
+.vacío {
+  padding-top: 30px;
+  margin-top: 40px;
 }
 
-.tituloParaFondo{
-    font-size: 45px;
-    color: rgb(65, 209, 209);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(91, 91, 92);
-    text-align: center;
+.textoDeFondo {
+  background-color: #b7ddf8d5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
 }
 
-.textoParaFondo1{
-    font-size: 40px;
-    color: rgb(65, 209, 209);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(91, 91, 92);
-    text-align: center;
+.tituloParaFondo {
+  font-size: 50px;
+  color: rgb(91, 91, 92);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgb(91, 91, 92);
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 0;
 }
 
-.textoParaFondo2{
-    font-size: 40px;
-    color: rgb(65, 209, 209);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(91, 91, 92);
-    text-align: center;
+.textoParaFondo1 {
+  font-size: 45px;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgb(91, 91, 92);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgb(91, 91, 92);
+  text-align: center;
 }
 
-main{
-    padding-top: 80px;
-    padding-bottom: 90px;
-    background-image: url(estrellas3.jpg);
-    text-align: center;
-    border-top: 2px solid green;
-    border-bottom: 2px solid green;
+main {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(imgFondos/fondomulan2.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
 }
 
-#sobreNosotros{
-    font-size: 40px;
-    color: rgb(206, 33, 140);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+#sobreNosotros {
+  font-size: 37px;
+  color: rgb(91, 91, 92);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgb(91, 91, 92);
 }
 
-#descripción{
-    font-size: 30px;
-    color: rgb(206, 33, 140);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+#descripción {
+  font-size: 28px;
+  color: rgb(91, 91, 92);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:rgb(91, 91, 92);
 }
 
-.servicios{
-    padding-top: 30px;
-    padding-bottom: 40px;
-    margin-bottom: 50px;
-    margin-top: 60px;
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: rgb(206, 33, 140);
-    border-radius: 3px;
-    text-align: center;
-    border: 2px solid rgb(91, 91, 92);
+.servicios {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: rgb(206, 33, 140);
+  border-radius: 15px;
+  text-align: center;
+  border: 2px solid rgb(91, 91, 92);
 }
 
-#tituloParaServicios{
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+#tituloParaServicios {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
 }
 
-.descripciónParaServicios{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+.descripciónParaServicios {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
-.card1{
-    background-color: white;
-    border: 2px solid rgb(91, 91, 92);
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: 'Bacasime Antique', serif;
-    color: rgb(91, 91, 92);
+.card1 {
+  background-color: white;
+  border: 2px solid rgb(91, 91, 92);
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Bacasime Antique', serif;
+  color: rgb(91, 91, 92);
 }
 
-.cards1{
-    display: grid;
-    grid-template-areas: "card card card "
-                         "card card card "
-                         "card card card ";
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    padding: 10px;
+.cards1 {
+  display: grid;
+  grid-template-areas: "card card card "
+                       "card card card "
+                       "card card card ";
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 10px;
 }
 
-#piñata{
-    grid-column-start: 2;
+#piñata {
+  grid-column-start: 2;
 }
 
-.serviciosAdicionales{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 0px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(0, 0, 0);
+.serviciosAdicionales {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
 }
 
-.navServicios{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-family: 'Bacasime Antique', serif;
-    background-color: rgb(65, 209, 209);
-    padding: 40px;
-    border-top: 2px solid green;
-    border-bottom: 2px solid green;
+.navServicios {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Bacasime Antique', serif;
+  background-color: rgb(65, 209, 209);
+  padding: 40px;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
 }
 
-.Galería{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
-    margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 50px;
-    background-color: rgb(196, 28, 131);
-    border-radius: 3px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid rgb(59, 3, 65);
+.Galería {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(196, 28, 131);
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(59, 3, 65);
 }
 
-.tituloGaleria{
-    font-size: 40px;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(230, 226, 226);
+.tituloGaleria {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
 }
 
-.descripcionGaleria{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color:rgb(230, 226, 226);
+.descripcionGaleria {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 .container-carousel {
-    width: 600px;
-    height: 600px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
-    border-radius: 15px;
-    overflow: hidden;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    position: relative;
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  position: relative;
 }
 
 .carruseles {
-    width: 1500%;
-    height: 100%;
-    display: flex;
+  width: 1500%;
+  height: 100%;
+  display: flex;
 }
 
 .slider-section {
-    width: calc(100% / 15);
-    height: 100%;
+  width: calc(100% / 15);
+  height: 100%;
 }
 
 .slider-section img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
 }
 
 .btn-left,
 .btn-right {
-    display: flex;
-    position: absolute;
-    font-size: 3.5rem;
-    background-color: transparent;
-    border-radius: 50%;
-    padding: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    color: #ffffff81;
-    transform: translate(0,-500%);
-    transition: .5s ease;
-    user-select: none;
+  display: flex;
+  position: absolute;
+  font-size: 3.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ffffff81;
+  transform: translate(0, -500%);
+  transition: 0.5s ease;
+  user-select: none;
 }
 
 .btn-left:hover,
 .btn-right:hover {
-    background-color: #333333d4;
-    color: #fff;
+  background-color: #333333d4;
+  color: #fff;
 }
 
 .btn-left {
-    left: 10px;
+  left: 10px;
 }
 
 .btn-right {
-    right: 10px;
+  right: 10px;
 }
 
-footer{
-    padding-top: 30px;
-    padding-bottom: 40px;
-    margin-bottom: auto 0;
-    margin-top: 60px;
-    margin-left: auto 0;
-    margin-right: auto 0;
-    background-color: rgb(65, 209, 209);
-    border-radius: 3px;
-    text-align: center;
-    border: 2px solid rgb(91, 91, 92);
+footer {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-bottom: auto 0;
+  margin-top: 60px;
+  margin-left: auto 0;
+  margin-right: auto 0;
+  background-color: rgb(65, 209, 209);
+  border-radius: 3px;
+  text-align: center;
+  border: 2px solid rgb(91, 91, 92);
 }
 
-#contacto{
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bacasime Antique', serif;
+#contacto {
+  font-size: 40px;
+  color: rgb(31, 31, 31);
+  font-family: "Bacasime Antique", serif;
 }
 
-#sugerenciaParaContactar{
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bacasime Antique', serif;
-    margin-bottom: 50px;
+#sugerenciaParaContactar {
+  font-size: 30px;
+  color: rgb(31, 31, 31);
+  font-family: "Bacasime Antique", serif;
+  margin-bottom: 50px;
 }
 
-.datosDeContacto{
-    font-size: 30px;
-    color: rgb(255, 255, 255);
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgb(53, 52, 52);
-    border-radius: 8px;
-    border: 1px solid #ffffff;
-    box-shadow: 7px 13px 37px #000;
+.datosDeContacto {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(53, 52, 52);
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  box-shadow: 7px 13px 37px #000;
 }
 
-#tituloDatos{
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-    font-family: 'Bacasime Antique', serif;
+#tituloDatos {
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  font-family: "Bacasime Antique", serif;
 }
 
-#concretarVisita{
-    color: rgb(255, 255, 255);
-    margin-top: 90px;
+#concretarVisita {
+  color: rgb(255, 255, 255);
+  margin-top: 90px;
 }
 
-.datos{
-    margin-top: 70px;
-    margin-bottom: 67px;
+.datos {
+  margin-top: 70px;
+  margin-bottom: 67px;
 }
 
-form{
-    width: 40%;
-    background: #24303c;
-    font-family: 'Bacasime Antique', serif;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 4px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    box-shadow: 7px 13px 37px #000;
+/*
+form {
+  width: 40%;
+  background: #24303c;
+  font-family: "Bacasime Antique", serif;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-shadow: 7px 13px 37px #000;
 }
 
-label{
-    margin-left: 10.5px;
-    margin-bottom: 0px;
-    margin-top: 5px;
-    font-size: 25px;
+
+label {
+  margin-left: 10.5px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-size: 25px;
 }
 
-input{
-    background: #24303c;
-    color: white;
-    font-family: 'Bacasime Antique', serif;
-    padding: 4px;
-    margin: 9px;
-    border-radius: 3px;
-    border: 1px solid #1f53c5;
-    font-size: 25px;
+input {
+  background: #24303c;
+  color: white;
+  font-family: "Bacasime Antique", serif;
+  padding: 4px;
+  margin: 9px;
+  border-radius: 3px;
+  border: 1px solid #1f53c5;
+  font-size: 25px;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
-input:hover{
-    box-shadow: inset 7px 13px 37px #000;
-    background-color: #455666;
+input:hover {
+  box-shadow: inset 7px 13px 37px #000;
+  background-color: #455666;
+}
+*/
+
+#ig {
+  color: rgb(255, 187, 229);
 }
 
-#ig{
-    color: rgb(255, 187, 229);
-}
-
-#ig:hover{
-    text-decoration: underline;
-    -webkit-transition: color .4s linear;
-    -moz-transition: color .4s linear;
-    -ms-transition: color .4s linear;
-    -o-transition: color .4s linear;
-    transition: color .4s linear;
-    color: rgb(206, 33, 140);
+#ig:hover {
+  text-decoration: underline;
+  -webkit-transition: color 0.4s linear;
+  -moz-transition: color 0.4s linear;
+  -ms-transition: color 0.4s linear;
+  -o-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+  color: rgb(206, 33, 140);
 }
 
 /*
@@ -410,380 +423,425 @@ input:hover{
     display: flex;
     align-items: center;
 }
-
 */
 
-@media ( width >= 1240px){
-    .menuHamburguesa{
-        display: none;
-    }
-    header{
-        position: fixed;
-        width: 100%;
-        border-bottom: 2px solid green;
-        z-index: 1000;
-    }
-    article{
-        padding-top: 90px;
-    }
+@media (width >= 1240px) {
+  .menuResponsive {
+    display: none;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid green;
+    z-index: 1000;
+  }
+  article {
+    padding-top: 90px;
+  }
 }
 
-@media ( width <= 900px){
-    .servicios{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .cards1{
-        display: flex;
-        flex-direction: column;
-    }
+@media ( width <= 1050px) {
+  .textoDeFondo {
+    width: 95%;
+  }
+  .tituloParaFondo {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  .textoParaFondo1 {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
 }
 
-@media ( width <= 730px){
-    article{
-        height: 80vh;
-    }
-    .tituloParaFondo{
-        font-size: 40px;
-    }
-    .textoParaFondo1{
-        font-size: 35px;
-    }
-    .textoParaFondo2{
-        font-size: 35px;
-    }
-    main{
-        padding-top: 25px;
-        padding-bottom: 25px;
-        margin-bottom: 10px;
-    }
-    #sobreNosotros{
-        font-size: 35px;
-    }
-    #descripción{
-        font-size: 25px;
-    }
-    .servicios{
-        padding-bottom: 2px;
-        padding-top: 2px;
-        margin-top: 55px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .star{
-        height: 20px;
-        width: 20px;
-    }
-    #tituloParaServicios{
-        font-size: 35px;
-    }
-    .descripciónParaServicios{
-        font-size: 25px;
-    }
-    .serviciosAdicionales{
-        font-size: 25px;
-        padding-top: 5px;
-        padding-bottom: 20px;
-    }
-
-    .Galería{
-        margin-top: 50px;
-        margin-bottom: 0px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 5px;
-    }
-    .tituloGaleria{
-        font-size: 35px;
-    }
-    .descripcionGaleria{
-        font-size: 25px;
-    }
-    .container-carousel {
-        width: 400px;
-        height: 400px;
-    }
-    .btn-left,
-    .btn-right {
-        display: flex;
-        position: absolute;
-        font-size: 2.5rem;
-        transform: translate(0,-430%);
-    }
-    .btn-left {
-        left: 3px;
-    }
-    
-    .btn-right {
-        right: 3px;
-    }
+@media (width <= 900px) {
+  .servicios {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .cards1 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media ( width <= 500px){
-    article{
-        height: 70vh;
-    }
-    .tituloParaFondo{
-        font-size: 30px;
-    }
-    .textoParaFondo1{
-        font-size: 25px;
-    }
-    .textoParaFondo2{
-        font-size: 25px;
-    }
-    main{
-        padding-top: 0px;
-        padding-bottom: 15px;
-        margin-bottom: 2px;
-    }
-    #sobreNosotros{
-        font-size: 25px;
-    }
-    #descripción{
-        margin-top: 0px;
-        font-size: 15px;
-    }
-    .servicios{
-        padding-bottom: 2px;
-        padding-top: 2px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .star{
-        height: 15px;
-        width: 15px;
-    }
-    #tituloParaServicios{
-        font-size: 25px;
-    }
-    .descripciónParaServicios{
-        font-size: 15px;
-    }
-    .serviciosAdicionales{
-        font-size: 15px;
-    }
-    .cards1{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .card1{
-        font-size: 15px;
-        margin-top: 2px;
-        margin-bottom: 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .imgCard{
-        height: 20px;
-        width: 20px;
-    }
-    .navServicios1{
-        font-size: 10px;
-    }
-    .imgNavServicios{
-        height: 30px;
-        width: 30px;
-    }
-    .Galería{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 5px;
-    }
-    .tituloGaleria{
-        font-size: 25px;
-    }
-    .descripcionGaleria{
-        font-size: 15px;
-    }
-    .container-carousel {
-        width: 310px;
-        height: 310px;
-    }
-    .btn-left,
-    .btn-right {
-        display: flex;
-        position: absolute;
-        font-size: 1.5rem;
-        transform: translate(0,-500%);
-    }
-    .btn-left {
-        left: 1px;
-    }
-    
-    .btn-right {
-        right: 1px;
-    }
-    footer{
-        margin-top: 5px;
-    }
-    #contacto{
-        font-size: 25px;
-    }
-    #sugerenciaParaContactar{
-        font-size: 15px;
-    }
-    #tituloDatos{
-        font-size: 25px;
-    }
-    .datos{
-        font-size: 15px;
-    }
-    .FooterIcon{
-        height: 15px;
-        width: 15px;
-    }
+@media (width <= 730px) {
+  article {
+    height: 80vh;
+  }
+  .tituloParaFondo {
+    font-size: 40px;
+  }
+  .textoParaFondo1 {
+    font-size: 35px;
+  }
+  main {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+  }
+  #sobreNosotros {
+    font-size: 30px;
+  }
+  #descripción {
+    font-size: 22px;
+  }
+  .servicios {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 55px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .star {
+    height: 20px;
+    width: 20px;
+  }
+  #tituloParaServicios {
+    font-size: 35px;
+  }
+  .descripciónParaServicios {
+    font-size: 25px;
+  }
+  .serviciosAdicionales {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .Galería {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+  }
+  .tituloGaleria {
+    font-size: 35px;
+  }
+  .descripcionGaleria {
+    font-size: 25px;
+  }
+  .container-carousel {
+    width: 400px;
+    height: 400px;
+  }
+  .btn-left,
+  .btn-right {
+    display: flex;
+    position: absolute;
+    font-size: 2.5rem;
+    transform: translate(0, -430%);
+  }
+  .btn-left {
+    left: 3px;
+  }
+  .btn-right {
+    right: 3px;
+  }
 }
 
-@media ( width <= 450px){
-    article{
-        height: 60vh;
-    }
-    .tituloParaFondo{
-        font-size: 30px;
-    }
-    .textoParaFondo1{
-        font-size: 25px;
-    }
-    .textoParaFondo2{
-        font-size: 25px;
-    }
-    main{
-        padding-top: 0px;
-        padding-bottom: 15px;
-        margin-bottom: 2px;
-    }
-    #sobreNosotros{
-        font-size: 25px;
-    }
-    #descripción{
-        margin-top: 0px;
-        font-size: 15px;
-    }
-    .servicios{
-        padding-bottom: 2px;
-        padding-top: 2px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .cards1{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .card1{
-        margin-top: 2px;
-        margin-bottom: 0px;
-        margin-left: 3px;
-        margin-right: 3px;
-        padding-top: 3px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .navServicios1{
-        font-size: 10px;
-    }
-    .imgNavServicios{
-        height: 30px;
-        width: 30px;
-    }
-    .Galería{
-        margin-top: 10px;
-        margin-bottom: 0px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 0px;
-        padding-left: 5px;
-    }
-    .tituloGaleria{
-        font-size: 25px;
-    }
-    .descripcionGaleria{
-        font-size: 15px;
-    }
-    .container-carousel {
-        width: 310px;
-        height: 310px;
-    }
-    .btn-left,
-    .btn-right {
-        display: flex;
-        position: absolute;
-        font-size: 1.5rem;
-        transform: translate(0,-500%);
-    }
-    .btn-left {
-        left: 1px;
-    }
-    
-    .btn-right {
-        right: 1px;
-    }
-    footer{
-        margin-top: 10px;
-    }
+@media (width <= 500px) {
+  article {
+    height: 70vh;
+  }
+  .tituloParaFondo {
+    font-size: 30px;
+  }
+  .textoParaFondo1 {
+    font-size: 25px;
+  }
+  main {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+  }
+  #sobreNosotros {
+    font-size: 25px;
+  }
+  #descripción {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .servicios {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .star {
+    height: 15px;
+    width: 15px;
+  }
+  #tituloParaServicios {
+    font-size: 25px;
+  }
+  .descripciónParaServicios {
+    font-size: 15px;
+  }
+  .serviciosAdicionales {
+    font-size: 15px;
+  }
+  .cards1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card1 {
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imgCard {
+    height: 20px;
+    width: 20px;
+  }
+  .navServicios1 {
+    font-size: 10px;
+  }
+  .imgNavServicios {
+    height: 30px;
+    width: 30px;
+  }
+  .Galería {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+  }
+  .tituloGaleria {
+    font-size: 25px;
+  }
+  .descripcionGaleria {
+    font-size: 15px;
+  }
+  .container-carousel {
+    width: 310px;
+    height: 310px;
+  }
+  .btn-left,
+  .btn-right {
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    transform: translate(0, -500%);
+  }
+  .btn-left {
+    left: 1px;
+  }
+
+  .btn-right {
+    right: 1px;
+  }
+  footer {
+    margin-top: 5px;
+  }
+  #contacto {
+    font-size: 25px;
+  }
+  #sugerenciaParaContactar {
+    font-size: 15px;
+  }
+  #tituloDatos {
+    font-size: 25px;
+  }
+  .datos {
+    font-size: 15px;
+  }
+  .FooterIcon {
+    height: 15px;
+    width: 15px;
+  }
 }
 
-@media ( 283px <= width <= 1240px ){
-    .RestoDelNavbar{
-        display: none;
-    }
-
-    .nav_items{
-        background-color: rgb(65, 209, 209);
-        border-radius: 3px;
-        margin: 0px;
-        padding: 18px;
-        font-family: 'Bacasime Antique', serif;
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media (width <= 450px) {
+  article {
+    height: 60vh;
+  }
+  .tituloParaFondo {
+    font-size: 30px;
+  }
+  .textoParaFondo1 {
+    font-size: 25px;
+  }
+  main {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    margin-bottom: 2px;
+  }
+  #sobreNosotros {
+    font-size: 25px;
+  }
+  #descripción {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  .servicios {
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .cards1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card1 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .navServicios1 {
+    font-size: 10px;
+  }
+  .imgNavServicios {
+    height: 30px;
+    width: 30px;
+  }
+  .Galería {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+  }
+  .tituloGaleria {
+    font-size: 25px;
+  }
+  .descripcionGaleria {
+    font-size: 15px;
+  }
+  .container-carousel {
+    width: 310px;
+    height: 310px;
+  }
+  .btn-left,
+  .btn-right {
+    display: flex;
+    position: absolute;
+    font-size: 1.5rem;
+    transform: translate(0, -500%);
+  }
+  .btn-left {
+    left: 1px;
+  }
+  .btn-right {
+    right: 1px;
+  }
+  footer {
+    margin-top: 10px;
+  }
 }
 
+@media (283px <= width <= 1240px) {
+  .RestoDelNavbar {
+    display: none;
+  }
+  .nav_items {
+    background-color: rgb(65, 209, 209);
+    border-radius: 3px;
+    margin: 0px;
+    padding: 18px;
+    font-family: "Bacasime Antique", serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
-@media ( 283px >= width ){
-    .RestoDelNavbar{
-        display: none;
-    }
+@media (283px >= width) {
+  .RestoDelNavbar {
+    display: none;
+  }
+  .nav_items {
+    background-color: rgb(65, 209, 209);
+    border-radius: 3px;
+    margin: 0px;
+    padding: 30px;
+    font-family: "Bacasime Antique", serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+}
 
-    .nav_items{
-        background-color: rgb(65, 209, 209);
-        border-radius: 3px;
-        margin: 0px;
-        padding: 30px;
-        font-family: 'Bacasime Antique', serif;
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-    }
+#preciobutton {
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 1em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 20px;
+  background-color: #25d366;
+  transition: 0.5s;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp_float:hover {
+  background-color: #1ea750;
+}
+
+.whatsapp-icon {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
 }
